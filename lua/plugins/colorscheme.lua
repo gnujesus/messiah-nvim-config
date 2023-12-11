@@ -5,6 +5,11 @@ return {
   opts = function()
     return {
       transparent = true,
+      styles = {
+        comments = { italic = true },
+        keywords = { italic = true },
+        -- functions = { italic = true },
+      },
     }
   end,
 }
