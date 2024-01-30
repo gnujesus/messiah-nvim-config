@@ -4,6 +4,7 @@ return {
     opts = {
       ensure_installed = {
         "cmake",
+        "c",
         "cpp",
         "css",
         "gitignore",
@@ -11,6 +12,7 @@ return {
         "java",
         "scss",
         "html",
+        "rust",
       },
     },
 
